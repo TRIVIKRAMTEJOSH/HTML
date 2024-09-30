@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+svg path:nth-child(1){
+    stroke-dasharray: 1200px;
+    stroke-dashoffset: 1200px;
+    animation: h 5s linear forwards;
+}
+svg path:nth-child(2){
+    stroke-dasharray: 1150px;
+    stroke-dashoffset: 1150px;
+    animation: h 5s linear forwards;
+    background-color: aquamarine;
+}
+svg path:nth-child(3){
+    stroke-dasharray: 200px;
+    /* stroke-dashoffset: 1150px; */
+    animation: h 5s linear forwards;
+}
+svg path:nth-child(4){
+    stroke-dasharray: 750px;
+    stroke-dashoffset: 750px;
+    animation: h 5s linear forwards;
+}
+svg path:nth-child(5){
+    stroke-dasharray: 1155px;
+    stroke-dashoffset: 1155px;
+    animation: h 5s linear forwards;
+}
+svg path:nth-child(6){
+    stroke-dasharray: 850px;
+    stroke-dashoffset: 850px;
+    animation: h 5s linear forwards;
+}
+@keyframes h{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dashoffset: 100%;
+        stroke-dasharray: 0;
+    }
+}
+/* .name{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: cir 5s infinite;
+    position: relative;
+}
+@keyframes cir{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: yellow;
+    }
+    25%{
+        top: 0;
+        left: 1435px;
+        background-color: yellowgreen;
+
+    }
+    50%{
+        left: 1435px;
+        top: 595px;
+        background-color: lightskyblue;
+    }
+    75%{
+        top: 595px;
+        left: 0;
+        background-color: darkred;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+} */

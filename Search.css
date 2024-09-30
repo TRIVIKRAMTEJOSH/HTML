@@ -1,0 +1,16 @@
+.search{
+position:relative;
+width: 15px;
+height: 15px;
+border-radius: 20px;
+padding: 10px;
+transition-duration: 500ms;
+cursor: pointer;
+background-repeat: no-repeat;
+font-size: 15px;
+color: transparent;
+border: 1px solid white; overflow: hidden;
+background: url("https://static.vecteezy.com/system/resources/previews/000/564/379/original/vector-search-icon-sign.jpg") no-repeat;
+background-size: 22px;
+background-position: 45% 50%;
+}

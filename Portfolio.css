@@ -18,7 +18,7 @@
     background-position: center center;
     max-width: 100%;
     background-repeat: no-repeat;
-    height: 640px;
+    height: 2000px;
 }
 .posters{
     display: flex;
@@ -39,6 +39,9 @@ h1{
     padding: 0.7% 0% 0% 2%;
     font-size: medium;
 }
-.new{
+h3{
     text-align: center;
+    font-weight: 450;
+    font-size: 0.8rem;
+    padding: 2% 0%;
 }
