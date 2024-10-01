@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.rec{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.rec img{
+    height: 400px;
+    width: 400px;
+}
+.text{
+    font-size: 25px;
+    font-weight: 200px;
+    padding-right: 150px;
+}
+.rec:hover{
+    height: 400px;
+    width: 1000px;
+    transition-duration: 5s;
+}
